@@ -1,0 +1,269 @@
+api:
+  version: 1.0
+  base_url: https://localhost:8080/api
+
+endpoints:
+  - path: /user
+    method: GET
+    description: Get list of users
+    parameters:
+      - name: page
+        type: integer
+        required: false
+        description: Page number for pagination
+      - name: limit
+        type: integer
+        required: false
+        description: Number of users per page
+
+  - path: /user
+    method: POST
+    description: Create a new user
+    parameters:
+      - name: username
+        type: string
+        required: true
+        description: Username for the new user
+      - name: email
+        type: string
+        required: true
+        description: Email address of the new user
+      - name: password
+        type: string
+        required: true
+        description: Password for the new user
+
+  - path: /user/{id}
+    method: GET
+    description: Get details of a specific user
+    parameters:
+      - name: id
+        type: string
+        required: true
+        description: ID of the user
+
+  - path: /user/{id}
+    method: PUT
+    description: Update details of a specific user
+    parameters:
+      - name: id
+        type: string
+        required: true
+        description: ID of the user
+      - name: email
+        type: string
+        required: false
+        description: New email address of the user
+      - name: password
+        type: string
+        required: false
+        description: New password for the user
+
+  - path: /{id}
+    method: DELETE
+    description: Delete a specific user
+    parameters:
+      - name: id
+        type: string
+        required: true
+        description: ID of the user
+
+  - path: /sign-up
+    method: POST
+    description: Register a new user
+    parameters:
+      - name: username
+        type: string
+        required: true
+        description: Username for the new user
+      - name: email
+        type: string
+        required: true
+        description: Email address of the new user
+      - name: password
+        type: string
+        required: true
+        description: Password for the new user
+
+  - path: /sign-in
+    method: POST
+    description: Sign in an existing user
+    parameters:
+      - name: username
+        type: string
+        required: true
+        description: Username of the user
+      - name: password
+        type: string
+        required: true
+        description: Password of the user
+
+  - path: /messages
+    method: GET
+    description: Get list of messages
+    parameters:
+      - name: user_id
+        type: string
+        required: false
+        description: ID of the user to filter messages by user
+      - name: page
+        type: integer
+        required: false
+        description: Page number for pagination
+      - name: limit
+        type: integer
+        required: false
+        description: Number of messages per page
+
+  - path: /messages
+    method: POST
+    description: Send a new message
+    parameters:
+      - name: user_id
+        type: string
+        required: true
+        description: ID of the user sending the message
+      - name: content
+        type: string
+        required: true
+        description: Content of the message
+
+  - path: /update
+    method: PUT
+    description: Update user information
+    parameters:
+      - name: user_id
+        type: string
+        required: true
+        description: ID of the user
+      - name: email
+        type: string
+        required: false
+        description: New email address of the user
+      - name: password
+        type: string
+        required: false
+        description: New password for the user
+
+  - path: /update/{id}
+    method: PUT
+    description: Update specific user information
+    parameters:
+      - name: id
+        type: string
+        required: true
+        description: ID of the user
+      - name: email
+        type: string
+        required: false
+        description: New email address of the user
+      - name: password
+        type: string
+        required: false
+        description: New password for the user
+
+  - path: /hobbies
+    method: GET
+    description: Get list of hobbies
+    parameters: []
+
+  - path: /hobbies
+    method: POST
+    description: Create a new hobby
+    parameters:
+      - name: name
+        type: string
+        required: true
+        description: Name of the hobby
+      - name: description
+        type: string
+        required: false
+        description: Description of the hobby
+
+  - path: /hobbies/{id}
+    method: GET
+    description: Get details of a specific hobby
+    parameters:
+      - name: id
+        type: string
+        required: true
+        description: ID of the hobby
+
+  - path: /hobbies/{id}
+    method: PUT
+    description: Update details of a specific hobby
+    parameters:
+      - name: id
+        type: string
+        required: true
+        description: ID of the hobby
+      - name: name
+        type: string
+        required: false
+        description: Name of the hobby
+      - name: description
+        type: string
+        required: false
+        description: Description of the hobby
+
+  - path: /hobbies/{id}
+    method: DELETE
+    description: Delete a specific hobby
+    parameters:
+      - name: id
+        type: string
+        required: true
+        description: ID of the hobby
+
+  - path: /reviews
+    method: GET
+    description: Get list of reviews
+    parameters: []
+
+  - path: /reviews
+    method: POST
+    description: Create a new review
+    parameters:
+      - name: hobby_id
+        type: string
+        required: true
+        description: ID of the hobby being reviewed
+      - name: user_id
+        type: string
+        required: true
+        description: ID of the user writing the review
+      - name: content
+        type: string
+        required: true
+        description: Content of the review
+
+  - path: /reviews/{id}
+    method: GET
+    description: Get details of a specific review
+    parameters:
+      - name: id
+        type: string
+        required: true
+        description: ID of the review
+
+  - path: /reviews/{id}
+    method: PUT
+    description: Update details of a specific review
+    parameters:
+      - name: id
+        type: string
+        required: true
+        description: ID of the review
+      - name: content
+        type: string
+        required: false
+        description: Updated content of the review
+
+  - path: /reviews/{id}
+    method: DELETE
+    description: Delete a specific review
+    parameters:
+      - name: id
+        type: string
+        required: true
+        description: ID of the review
