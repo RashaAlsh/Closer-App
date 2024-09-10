@@ -1,0 +1,31 @@
+{
+  "filter": [
+    {
+      "name": "Hobbies",
+      "options": [
+        { "name": "Reading", "value": "Reading" },
+        { "name": "Gaming", "value": "Gaming" },
+        { "name": "Walking", "value": "Walking" }
+      ]
+    },
+    {
+      "name": "Location",
+      "options": [
+        { "name": "Amsterdam", "value": "Amsterdam" },
+        { "name": "Utrecht", "value": "Utrecht" },
+        { "name": "Arnhem", "value": "Arnhem" },
+        { "name": "Nijmegen", "value": "Nijmegen" },
+        { "name": "Rotterdam", "value": "Rotterdam" },
+        { "name": "The Hague", "value": "The Hague" },
+        { "name": "Eindhoven", "value": "Eindhoven" },
+        { "name": "Groningen", "value": "Groningen" },
+        { "name": "Tilburg", "value": "Tilburg" },
+        { "name": "Almere", "value": "Almere" },
+        { "name": "Breda", "value": "Breda" },
+        { "name": "Enschede", "value": "Enschede" },
+        { "name": "Apeldoorn", "value": "Apeldoorn" },
+        { "name": "Haarlem", "value": "Haarlem" }
+      ]
+    }
+  ]
+}

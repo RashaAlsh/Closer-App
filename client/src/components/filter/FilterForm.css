@@ -1,0 +1,27 @@
+.filter-form {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  z-index: 230;
+  width: 90%;
+}
+.filter-form button {
+  right: 5%;
+  position: absolute;
+  z-index: 10000;
+  width: 40px;
+  height: 40px;
+  color: #ff1493;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filter-form button:hover {
+  color: white;
+  background-color: #ff1493;
+}

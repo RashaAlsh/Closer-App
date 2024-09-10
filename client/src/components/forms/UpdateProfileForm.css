@@ -1,0 +1,101 @@
+.Profile-form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Profile-form header {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  color: #fff;
+}
+
+.show-profile-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.show-profile-header h1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.8rem;
+  max-width: calc(100% - 100px);
+}
+
+.Profile-form header h1 {
+  margin: 0;
+  color: #d7007f;
+}
+
+.Profile-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.Button-group button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.Profile-form-button {
+  background-color: #d7007f;
+  color: #fff;
+}
+
+.Profile-form-button:disabled {
+  background-color: #ffc0cb;
+}
+
+.Button-group button:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.info {
+  margin: 20px 0;
+  text-align: center;
+  color: #d7007f;
+}
+
+.Profile-form-input-text {
+  width: 460px;
+  padding: 10px;
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .Profile-form form {
+    width: 90%;
+  }
+}
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+.chat-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  background-color: #ff1493;
+  color: #fff;
+  margin-left: 10px;
+  flex-shrink: 0;
+}

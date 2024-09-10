@@ -1,0 +1,60 @@
+.upload-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.pro-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #ff4b4b;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #ff7878;
+}
+.upload-image-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+.avatar {
+  width: 300px;
+  height: 300px !important;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875rem; /* 14px */
+  margin-top: 0.5rem;
+  font-weight: bold;
+}

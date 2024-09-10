@@ -1,0 +1,127 @@
+.Profile-form-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 20px;
+  background-color: white;
+  padding: 0.5rem;
+  min-height: 80px;
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.Profile-form-input label {
+  display: block;
+  margin-bottom: 5px;
+  color: #d7007f; /* deep pink */
+}
+
+.Profile-form-input input,
+.Profile-form-input textarea,
+.Profile-form-input select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #d7007f; /* deep pink */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.Profile-form-input input[readonly],
+.Profile-form-input textarea[readonly] {
+  background-color: #f5f5f5;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.options-label {
+  margin-right: 10px;
+  color: #d7007f; /* deep pink */
+}
+
+.options-input {
+  margin-left: 5px;
+}
+
+.Profile-form-input input[readonly]:focus,
+.Profile-form-input textarea[readonly]:focus,
+.Profile-form-input input[disabled]:focus,
+.Profile-form-input textarea[disabled]:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.Profile-form-input-text {
+  width: 500px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.Profile-form-input-bio {
+  width: 500px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.Profile-form-button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #77757d;
+  color: white;
+  cursor: pointer;
+  width: 200px;
+  margin-bottom: 100px;
+  margin-top: 80px;
+  margin-left: 90px;
+  margin-right: 100px;
+  font-size: 20px;
+}
+.Profile-form-button:hover {
+  background-color: #49454f;
+}
+
+@media screen and (max-width: 600px) {
+  .Profile-form-input {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .bio {
+    width: 100%;
+  }
+  .label-vertical {
+    flex-direction: column;
+  }
+}
+.pro-img {
+  max-width: 100%;
+  border: 2px solid #d7007f; /* deep pink */
+  border-radius: 10px;
+}
+
+.default-values,
+.default-value {
+  display: inline-block;
+  padding: 5px 10px;
+
+  background-color: #fff; /* soft yellow */
+  color: #111;
+  border-radius: 5px;
+  gap: 10px;
+}
+.error-message {
+  color: red;
+  margin: 5px 0;
+}
+.hobbies-container {
+  display: flex;
+  flex-wrap: wrap;
+}

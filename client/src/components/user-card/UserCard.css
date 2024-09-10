@@ -1,0 +1,76 @@
+.usercard-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #424242;
+  border-radius: 15px;
+  width: 180px;
+  height: 248px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.usercard-content:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.usercard-h {
+  display: flex;
+  color: white;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.usercard-p {
+  min-height: 45px;
+  display: flex;
+  color: rgba(255, 255, 255, 0.899);
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  padding: 4px 3px 0;
+}
+
+.usercard-avatar {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.usercard2-content {
+  width: 180px;
+  height: 248px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+  background: #e8b931;
+  border: 1.5px solid #424242;
+  border-radius: 15px;
+  width: 205px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+.avatar-svg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}

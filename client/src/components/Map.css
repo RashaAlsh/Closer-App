@@ -1,0 +1,36 @@
+.map-container {
+  display: flex;
+  justify-content: center;
+}
+.leaflet-container {
+  height: 70vh;
+  width: 90%;
+  border-radius: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 2rem auto;
+  margin-top: 5%;
+}
+
+.cluster-icon {
+  background-color: #333;
+  height: 2em;
+  width: 2em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  box-shadow: 0 0 0px 5px #fff;
+}
+
+.error-message {
+  position: absolute;
+  z-index: 1000;
+  color: red;
+  padding: 10px;
+  background-color: #fdd;
+  border: 1px solid red;
+  margin: 10px;
+  border-radius: 5px;
+}

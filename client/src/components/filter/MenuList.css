@@ -1,0 +1,41 @@
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.menu-list-options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 450px;
+}
+
+.filter-dropdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.filterArrow {
+  display: inline;
+  width: 0;
+  height: 0;
+  margin-left: 10px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+  transition: transform 0.2s ease;
+}
+
+.filterArrow.open {
+  transform: rotate(180deg);
+}
+
+.menu-list h3 {
+  display: inline;
+  cursor: pointer;
+}

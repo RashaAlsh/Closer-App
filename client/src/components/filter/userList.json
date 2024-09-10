@@ -1,0 +1,25 @@
+{
+  "userList": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "email@email.com",
+      "location": "Amsterdam",
+      "hobbies": ["Reading", "Gaming"]
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "email2@email.com",
+      "location": "Utrecht",
+      "hobbies": ["Walking"]
+    },
+    {
+      "id": 3,
+      "name": "John Smith",
+      "email": "email3@email.com",
+      "location": "Arnhem",
+      "hobbies": ["Reading"]
+    }
+  ]
+}

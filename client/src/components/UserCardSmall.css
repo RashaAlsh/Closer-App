@@ -1,0 +1,57 @@
+.usercard-small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+.usercard-small-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.usercard-small-info {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.usercard-small-name {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.usercard-small-location {
+  font-size: 10px;
+  color: #666;
+  margin: 0;
+}
+
+.usercard-small-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.usercard-button {
+  background-color: deeppink;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.usercard-button:hover {
+  background-color: #d6006c;
+}

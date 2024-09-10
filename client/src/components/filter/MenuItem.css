@@ -1,0 +1,31 @@
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  scrollbar-color: #ff1493;
+  gap: 10px;
+}
+
+.menu-item::-webkit-scrollbar {
+  height: 8px;
+}
+.menu-item label {
+  font-weight: normal;
+}
+
+.menu-list::-webkit-scrollbar-thumb {
+  background-color: #ff1493;
+  border-radius: 4px;
+}
+
+.menu-list::-webkit-scrollbar-track {
+  background-color: #ff1493;
+}
+.menu-button-2 {
+  color: white;
+  background-color: #ff1493;
+}
+.menu-button-2:hover {
+  color: #ff1493;
+  background-color: white;
+}
