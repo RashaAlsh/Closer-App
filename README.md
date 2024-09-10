@@ -1,12 +1,13 @@
-`TODO: Add a nice screenshot of the app!`
 
-# Cohort XX final project
+
+# Cohort 47 final project
 
 This is the final project for the HackYourFuture curriculum we did as a cohort using the [MERN stack](https://www.mongodb.com/resources/languages/mern-stack) by following the agile methodology with our team and a group of mentors. A quick guide to what we built:
 
-> TODO: Add short description of the app
+ this app is designed to help users connect with nearby individuals. The app allows users to view profiles, see their locations on a map, browse a list of users, and chat with them
 
-`[Click here for the Demo version](TODO: add link)`
+ 
+`[Click here for the Demo version]((https://c47-group-b-615d7657ce55.herokuapp.com/about-us))`
 
 ## 1. Setup
 
