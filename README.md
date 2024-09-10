@@ -2,10 +2,7 @@
 
 # Cohort 47 final project
 
-This is the final project for the HackYourFuture curriculum we did as a cohort using the [MERN stack](https://www.mongodb.com/resources/languages/mern-stack) by following the agile methodology with our team and a group of mentors. A quick guide to what we built:
-
- this app is designed to help users connect with nearby individuals. The app allows users to view profiles, see their locations on a map, browse a list of users, and chat with them
-
+This is the final project for the HackYourFuture curriculum we did as a cohort using the [MERN stack](https://www.mongodb.com/resources/languages/mern-stack) by following the agile methodology with our team and a group of mentors.
  ## Overview 🌟
   this app is designed to help users connect with nearby individuals. The app allows users to view profiles, see their locations on a map, browse a list of users, and chat with them
 
