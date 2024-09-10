@@ -6,9 +6,16 @@ This is the final project for the HackYourFuture curriculum we did as a cohort u
 
  this app is designed to help users connect with nearby individuals. The app allows users to view profiles, see their locations on a map, browse a list of users, and chat with them
 
- 
-`[Click here for the Demo version]((https://c47-group-b-615d7657ce55.herokuapp.com/about-us))`
+ ## Overview 🌟
+  this app is designed to help users connect with nearby individuals. The app allows users to view profiles, see their locations on a map, browse a list of users, and chat with them
 
+## Demo :eyes: 
+  
+[Click here for the Demo version](https://c47-group-b-615d7657ce55.herokuapp.com/about-us)
+
+## Screenshots 📷
+<a href="https://ibb.co/jWVWmjQ"><img src="https://i.ibb.co/ZYHY5bF/Screenshot-2024-09-11-at-01-22-34.png" alt="Screenshot-2024-09-11-at-01-22-34" border="0"></a>
+<a href="https://ibb.co/CzqhgND"><img src="https://i.ibb.co/R91zfZd/Screenshot-2024-09-11-at-01-23-12.png" alt="Screenshot-2024-09-11-at-01-23-12" border="0"></a>
 ## 1. Setup
 
 First, to setup all the directories run the following in the main directory:
