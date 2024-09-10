@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.user-l-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.user-l-comp-holder {
+  width: 180px;
+  height: 47px;
+  border-radius: 25px 25px 0 0;
+  background-color: rgba(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+  align-items: center;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+  z-index: 100;
+  position: fixed;
+  bottom: 295px;
+}
+
+.user-list-container {
+  overflow: hidden;
+  max-width: 89%;
+  border-radius: 40px 40px 0px 0px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0);
+  padding: 18px 70px 10px;
+  transition: height 0.3s ease;
+  position: fixed;
+  bottom: 0;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 100;
+}
+
+.user-list-container.collapsed {
+  display: none;
+}
+.user-l-comp-holder.fixed-bottom {
+  position: fixed;
+  align-items: center;
+  display: flex;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.user-slideshow {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 100%;
+  gap: 18px;
+
+  align-items: center;
+
+  padding: 10px;
+  position: relative;
+}
+
+.user-slideshow::-webkit-scrollbar {
+  display: none;
+}
+
+.arrow {
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-size: 3rem;
+  text-align: center;
+  color: deeppink;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-arrow {
+  left: 17px;
+  bottom: 100px;
+}
+
+.right-arrow {
+  right: 17px;
+  bottom: 100px;
+}
+
+.user-card {
+  min-width: 250px;
+  margin-right: 10px;
+  flex: 0 0 auto;
+}

@@ -1,0 +1,140 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+  flex-direction: column;
+}
+
+.sign-in-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.sign-in-form h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+  color: #ff1493;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ff1493;
+}
+
+.form-group input {
+  width: 380px;
+  padding: 10px;
+  border: 1px solid #ff1493;
+  border-radius: 4px;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.password-container .eye-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ff1493; /* Pink */
+  top: 17%;
+}
+
+/* .password-container .eye-icon.show {
+  color: #ffa500; 
+  text-decoration: line-through; 
+} */
+
+.error {
+  color: red;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.loading {
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.dark-pink-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff1493;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dark-pink-button:hover {
+  background-color: #ff4781;
+}
+
+.dark-pink-button.disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  pointer-events: none; /* Prevents clicking */
+  color: #666666;
+}
+
+/* .signup-link {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.signup-link p {
+  color: #333;
+}
+
+.signup-link-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff1493;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-link button:hover {
+  background-color: #ff4781;
+} */
+
+.signup-link {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.signup-link p {
+  display: inline;
+  color: #333;
+}
+
+.sign-up-text {
+  color: #ff1493;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.sign-up-text:hover {
+  color: #ff4781;
+}

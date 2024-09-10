@@ -1,0 +1,10 @@
+.customized-app {
+  height: 100%;
+}
+
+.sendbird-app__wrap .sendbird-app__conversation-wrap {
+  flex: 1;
+  position: relative;
+  width: calc(100% - 320px);
+  height: 820px;
+}
